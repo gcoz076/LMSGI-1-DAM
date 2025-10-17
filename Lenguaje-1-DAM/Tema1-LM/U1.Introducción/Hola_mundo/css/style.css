@@ -1,0 +1,13 @@
+/*
+*Este es un comentario para css
+*
+*
+*/
+*{
+    margin:10;
+    padding:5;
+}
+h1, h2, h3{
+    color:green;
+    background-color: aquamarine;
+}
