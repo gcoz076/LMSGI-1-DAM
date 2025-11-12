@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    background-color: #FAF3E0;
+    color: #2C2C2C;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(250, 243, 224, 0.9);
+    border-bottom: 3px solid #B33939;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #B33939;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2C2C2C;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #B33939;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-left: 4px solid #B33939;
+    border-right: 4px solid #B33939;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+h2 {
+    color: #B33939;
+    border-bottom: 2px solid #F7B538;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+article {
+    overflow: hidden;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(250, 243, 224, 0.6);
+    border-radius: 6px;
+}
+
+.izquierda img {
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+    display: block;
+}
+
+.derecha img {
+    float: right;
+    width: 40%;
+    margin-left: 20px;
+    display: block;
+}
+
+article h3 {
+    color: #B33939;
+    margin-bottom: 10px;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+section li {
+    list-style: none;
+    border-left: 3px solid #B33939;
+    margin: 8px;
+    padding-left: 10px;
+}
+footer {
+    text-align: center;
+    background-color: rgba(250, 243, 224, 0.9);
+    border-top: 3px solid #B33939;
+    padding: 15px;
+    color: #8C7A6B;
+    font-size: 14px;
+}
