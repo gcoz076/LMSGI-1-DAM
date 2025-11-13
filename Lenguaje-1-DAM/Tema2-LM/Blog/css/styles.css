@@ -39,7 +39,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #ccc;
+    border: 1px 
     padding: 0.75rem;
     text-align: left;
 }
@@ -47,6 +47,19 @@ th, td {
 th {
     background-color: #4a6fa5;
     color: white;
+}
+
+article {
+    border: 2px solid black;
+    margin: 1.5rem;
+    border-radius: 5px;
+}
+
+h4 {
+    background: #4a6fa5;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
 }
 
 footer {

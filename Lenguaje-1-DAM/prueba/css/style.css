@@ -1,0 +1,62 @@
+header{
+    background-image: url(https://ethic.es/wp-content/uploads/2023/03/imagen.jpg);
+}
+
+h1 {
+    clear:both;
+    color: palegreen;
+    text-align: center;
+    padding: 35px;
+    margin: 20px;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+    padding: 5px;
+    background-color: beige;
+}
+
+#wow{
+    color:rgb(255, 187, 0)
+}
+
+nav{
+    align-items: center;
+    margin-left: 200px;
+}
+
+a{
+    color:whitesmoke;
+    float:left;
+    text-align: center;
+    text-decoration: overline;
+    border: 10px;
+    border-color: whitesmoke;
+    background-color: orange;
+    margin: 2%;
+    padding: 10px;
+}
+a:hover{
+    color:black
+}
+
+a:visited{
+    color:yellow
+}
+
+.principal{
+    float:right;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.Secundario {
+    clear: both;
+    margin-top: 20%;
+    padding-top: 3%;
+    padding-left: 3%;
+    text-align: left;
+    color: black;
+}
