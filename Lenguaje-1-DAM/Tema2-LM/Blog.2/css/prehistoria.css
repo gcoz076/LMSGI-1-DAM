@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    background-color: #FAF3E0;
+    color: #2C2C2C;
+    line-height: 1.6;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    color: #2C2C2C;
+    background-color: #FAF3E0;
+}
+
+header {
+    background-color: rgba(250, 243, 224, 0.9);
+    border-bottom: 3px solid #B33939;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+}
+
+header h1 {
+    color: #B33939;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2C2C2C;
+    margin: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #B33939;
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.articulo-principal {
+    width: 70%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-left: 4px solid #B33939;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.articulo-principal img {
+    width: 550px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #B33939;
+    margin-bottom: 20px;
+    margin-left: 27%;
+}
+
+.articulo-principal h2 {
+    color: #B33939;
+    border-bottom: 2px solid #F7B538;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.articulo-principal h3 {
+    color: #B33939;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.articulo-principal p {
+    margin-bottom: 10px;
+}
+
+.articulo-principal ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.articulo-principal li {
+    margin-bottom: 8px;
+}
+
+.aside-categorias {
+    width: 25%;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-left: 4px solid #F7B538;
+    padding: 20px;
+    border-radius: 5px;
+    position: sticky;
+    top: 10px;
+}
+
+.aside-categorias h2 {
+    color: #B33939;
+    border-bottom: 2px solid #F7B538;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.aside-categorias ul {
+    list-style: none;
+}
+
+.aside-categorias li {
+    margin: 10px 0;
+}
+
+.aside-categorias a {
+    text-decoration: none;
+    color: #2C2C2C;
+    font-weight: bold;
+}
+
+.aside-categorias a:hover {
+    color: #B33939;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(250, 243, 224, 0.9);
+    border-top: 3px solid #B33939;
+    font-size: 14px;
+    color: #8C7A6B;
+    margin-top: 40px;
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap");
 
 * {
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 header {
     background-color: rgba(250, 243, 224, 0.9);
     border-bottom: 3px solid #B33939;
-    padding: 20px; 
+    padding: 20px;
     text-align: center;
     position: sticky;
 }
@@ -31,14 +31,14 @@ nav a {
     text-decoration: none;
     color: #2C2C2C;
     margin: 20px;
-    font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
     color: #B33939;
 }
+
 
 main {
     width: 90%;
@@ -47,9 +47,10 @@ main {
 }
 
 .principio {
-    width: 1130px;
-    border: 4px solid #B33939
+    width: 98.5%;
+    border: 4px solid #B33939;
 }
+
 h2 {
     color: #B33939;
     border-bottom: 2px solid #F7B538;
@@ -62,6 +63,7 @@ section {
     display: flex;
     justify-content: center;
 }
+
 article {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.85);
@@ -90,14 +92,17 @@ article h2:hover {
     height: 400px;
     width: 350px;
 }
+
 .abajo-derecha img {
     padding-top: 22px;
     padding-bottom: 3px;
 }
+
 article img {
     height: 200px;
     width: 400px;
 }
+
 footer {
     text-align: center;
     padding: 15px;
